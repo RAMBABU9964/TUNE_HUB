@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+body {
+	background-color:pink;
+	text-align:center;
+	margin-top:200px;
+	justify-content: center;
+	align-items: center;	
+}
+.login{
+	height: 300px;
+	width: 300px;
+	border: 0.5px solid black;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	background-color: #333;
+	color: white;
+	text-decoration: none;
+}
+input {
+	margin-bottom: 20px;
+}
+h1{
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+.sub{
+	width: 50px;
+	
+}
+.sub:hover {
+background-color: blue;	
+width: 80px
+}
+input[type="text"],
+input[type="password"]
+{
+    width: 70%;
+    padding: 5spx;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
